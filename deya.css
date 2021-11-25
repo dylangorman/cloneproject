@@ -427,31 +427,12 @@ header, .row{
     color: #6283cb;
 }
 
-@media all 
-    and (min-width: 1201px){
-        
-}
-  @media all
-  and (min-width: 951px) 
-  and (max-width: 1200px){
-    
-}
-
-@media all 
-  and (min-width: 705px)
-  and (max-width: 950px){
-    
-}
-@media all 
-  and (min-width: 451px) 
-  and (max-width: 704px){
-    
-}
-@media all 
-  and (max-width: 450px){
-    
-
-}
+@media only screen and (min-width:320px)  {.body /* smartphones, iPhone, portrait 480x320 phones */ }
+@media only screen and (min-width:481px)  {.body /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media only screen and (min-width:641px)  {.body /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media only screen and (min-width:961px)  {.body /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media only screen and (min-width:1025px) {.body /* big landscape tablets, laptops, and desktops */ }
+@media only screen and (min-width:1281px) {.body /* hi-res laptops and desktops */ }
 
 
 
