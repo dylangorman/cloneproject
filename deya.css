@@ -1,0 +1,436 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    font-family: bungee;
+    background-color: #fff;
+}
+.wrapper {
+    font-size: 18px;
+    width: 100%;
+    padding:20px;
+  }
+  /* Flex Container */
+.navBar{
+    display: flex;
+}
+
+.nav1{
+    flex:0.06;
+    padding: 10px 0px 0px 30px
+}
+.nav2{
+    flex:0.08;
+    padding: 10px 0px 0px 0px
+}
+.nav3{
+    flex:0.06;
+    padding: 10px 0px 0px 0px
+}
+.nav4{
+    flex:0.06;
+    padding: 10px 0px 0px 0px
+}
+.nav5{
+    flex:0.12;
+    padding: 10px 0px 0px 0px
+}
+.nav6{
+    flex: 0.48;
+    padding: 10px 0px 0px 0px
+}
+
+.nav7{
+    flex: 0.03;
+    font-size: 14px;
+    background-color: #ECEFFA;
+    padding:  15px 10px 25px 25px;
+    border-radius: 5%;
+    height: 5px;
+      
+}
+.nav8{
+    flex: 0.02;
+    padding: 10px 0px 0px 20px
+}
+.nav9{
+    flex: 0.02;
+    padding: 10px 0px 0px 0px
+
+}
+.nav10{
+    flex:0.01;
+    padding: 10px 0px 0px 0px
+}
+
+.wrapper, a{color: #6283cb;
+    list-style: none;
+    text-decoration: none;
+}
+.SHOP {
+    background-color: #ECEFFA;
+    padding-top: 0px;
+    padding-bottom:0px;
+    padding-left: 30px;
+    padding-right: 35px;
+    border-radius: 5%;
+}
+.SHOP:hover {
+    background-color: #F6F8FD;   
+}
+.mainImage{
+    width: 2000px;
+}
+.welcome {
+    background-color: #F6F8FD;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.welcome h2 {
+    color: #E3A099;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.welcome p{
+    font-family: 'Saira Semi Condensed';
+    color: black;  
+}
+.signOff p{
+    color: #6283cb;  
+}
+
+.signOff a{
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+/* .beersEvents{
+
+} */
+.beers {
+    height: 700px;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.beers h2 {
+    color: #E3A099;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.beers p {
+    font-family: 'Saira Semi Condensed';
+    color: black;  
+}
+.beerReleases{
+    background-color: #ECEFFA;
+    padding:  20px 30px 20px 30px;
+    border-radius: 5%;
+    
+}
+.events {
+    height: 700px;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.events h2 {
+    color: #E3A099;
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+.events p {
+    font-family: 'Saira Semi Condensed';
+    color: black;  
+}
+.viewCalendar {
+    background-color: #ECEFFA;
+    padding:  20px 30px 20px 30px;
+    border-radius: 5%; 
+}
+
+
+.beersEvents{
+    display: flex;
+}
+.beers{
+    flex:1;
+    margin-left: 150px;
+    /* border: solid black; */
+}
+.events{
+    flex:1;
+    justify-content: center;
+    /* border: solid black; */
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+.viewFinder a {
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+.viewFinder {
+    font-size: smaller;
+    font-weight:lighter;
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* box-shadow: 0px 0px 5px 0px #ccc; */
+}
+.viewFinder span {
+    border-left: 1px solid black;
+  height: 20px;
+}
+
+.tapRoom {
+    background-color: #F7A976;
+    height: 900px;
+    width:100%;
+}
+.openingTimes{
+    margin-left: 225px;
+    margin-top: 130px;
+
+}
+.tapRoom{
+    display: flex;  
+}
+.creatures {   
+    margin-top: 100px;
+    /* margin-right: 100px; */
+}
+.openingTimes h2{
+    font-size: 3rem;
+}
+.openingTimes{
+    width: 500px;
+    padding: 20px 0px 0px 70px;  
+}
+.openingTimes h4{
+    margin-bottom: 50px; 
+    letter-spacing: 1px;
+}
+.dayHour {
+    width: 370px;
+    font-family: 'Saira Semi Condensed';
+    font-size: 18px;
+    line-height:35px;
+    font-weight: bolder;
+    /* border: solid black;  */
+}
+header, .row{
+    display: flex;
+}
+.day, .today{
+    flex:1;
+    justify-content: flex-start;
+}
+
+.hour{
+    /* flex:1; */
+    justify-content: flex-end;
+}
+
+
+.today, .todayHour {
+    background-color: #E1BA9D;
+}
+.tapRoomFooter{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+}
+
+
+.ontap, .locationBlack, .foodTrucks{
+
+    background-color: black;
+    padding:  0px 15px 0px 15px;
+    border-radius: 5%;
+    font-family: bungee;
+}
+.ontap:hover, .locationBlack:hover, .foodTrucks:hover{
+    background-color: #787A82;
+    transition: color 2s, ease-in-out 500ms;
+}
+.tapRoomFooter a {
+    color: white;
+    font-size: 12px;
+}
+
+.reservations a{
+    background-color: none;
+    font-family: bungee;
+    color: black;
+}
+.reservations{
+    padding-top: 30px;
+}
+
+.signShop{
+    display: flex;
+}
+.signUp{
+    flex:1;
+    margin-left: 300px;
+    /* border: solid black; */
+}
+.shop{
+    flex:1;
+    /* justify-content: center; */
+    /* border: solid black; */
+}
+.signUp img{
+    margin-left: 200px;
+    margin-top: -10px;
+}
+.shop img {
+    margin-top:30px;
+    margin-right: 200px;
+}
+.signUp {
+    height: 750px;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.signUp h2 {
+    color: #E3A099;
+    margin-left:180px;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.signUp p {
+    margin-left: 160px;
+    font-family: 'Saira Semi Condensed';
+    font-size: 23px;
+    color: black;  
+    font-weight: bold;
+}
+.newsLetterButton{
+    background-color: #ECEFFA;
+    padding:  20px 30px 20px 30px;
+    border-radius: 5%;
+    margin-left: 200px;
+}
+.shop {
+    height: 700px;
+    text-align: center;
+    padding: 50px;
+    
+}
+.shop h2 {
+    color: #E3A099;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-right: 180px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.shop p {
+    font-family: 'Saira Semi Condensed';
+    color: black; 
+    font-size: 23px;
+    font-weight: bold; 
+    margin-right: 190px;
+    margin-top: 30px;
+}
+.shopButton {
+    background-color: #ECEFFA;
+    padding:  20px 30px 20px 30px;
+    border-radius: 5%; 
+    font-size: 16px;
+    margin-right: 170px;
+}
+
+.shop{
+    margin-right: 50px;
+    margin-top: -10px;
+}
+.signUp {
+    margin-left: 50px;
+    margin-top: 280px;
+}
+
+.space{
+    background-color: #F6F8FD;
+    width: 100%;
+    height: 60px;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+}
+.footer h3 {
+    color: #E3A099;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.footer p {
+    font-family: 'Saira Semi Condensed';
+    color: black;  
+}
+
+.contact p {
+    color: #6283cb;
+}
+.icons {
+    margin-top: 30px;
+}
+.leaveAreview p{
+    color: #6283cb;
+}
+.directions{
+    font-family: bungee;
+    font-size: 12px;
+    background-color: #ECEFFA;
+    padding:  10px 15px 10px 15px;
+    border-radius: 5%;
+}
+
+.footer{
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.copyright {
+    padding: 0px 0px 0px 0px;
+    font-family: 'Saira Semi Condensed';
+    color: black;  
+    line-height: 5px;
+    width: 100%;
+    height: 200px;
+    margin-left: 210px;
+
+}
+.privacy{
+    color: #6283cb;
+    
+}
+.copyright h4 {
+    line-height: 20px;
+}
+.copyright span {
+    color: #6283cb;
+}
+
+
+
+
+
+
+
+
