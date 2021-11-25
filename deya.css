@@ -427,6 +427,16 @@ header, .row{
     color: #6283cb;
 }
 
+@media all and (max-width:1000px) {
+     
+   
+}
+
+@media all and (max-width:500px) {
+  
+
+}
+
 
 
 
