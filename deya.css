@@ -427,27 +427,27 @@ header, .row{
     color: #6283cb;
 }
 
-@media screen 
+@media all 
     and (min-width: 1201px){
         
 }
-  @media screen
+  @media all
   and (min-width: 951px) 
   and (max-width: 1200px){
     
 }
 
-@media screen 
+@media all 
   and (min-width: 705px)
   and (max-width: 950px){
     
 }
-@media screen 
+@media all 
   and (min-width: 451px) 
   and (max-width: 704px){
     
 }
-@media screen 
+@media all 
   and (max-width: 450px){
     
 
